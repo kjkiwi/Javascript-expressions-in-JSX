@@ -11,14 +11,14 @@ import ReactDOM from "react-dom";
 
 const fName = "Kylie";
 const lName = "Jurgensen";
-const date = new Date().getFullYear();
+//const date = new Date().getFullYear();
 
 ReactDOM.render(
   <div>
     <p>
       Created by {fName} {lName}.
     </p>
-    <p>Copyright {date}.</p>
+    <p>Copyright {new Date().getFullYear()}.</p>
   </div>,
   document.getElementById("root")
 );
